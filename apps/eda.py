@@ -9,7 +9,7 @@ from streamlit_pandas_profiling import st_profile_report
 def app():
     st.title('Exploratory Data Analysis - UCI Credit Dataset')
     df = pd.read_csv("UCI_Credit_Card.csv")
-    pr = ProfileReport(df, explorative=True)
+    pr = ProfileReport(df, minimal=True)
     st.header('**Dataset**')
     st.write(df)
     st.write('---')
