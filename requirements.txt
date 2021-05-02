@@ -4,3 +4,4 @@ scikit-learn==0.23.2
 numpy==1.19.2
 pandas-profiling==2.11.0
 streamlit-pandas-profiling==0.1.1
+plotly==4.14.3
