@@ -1,0 +1,5 @@
+Algorithms,Accuracy,Precision,Recall
+LogisticReg,81.9778,69.8276,32.5628
+LightGBM,85.5556,78.798,47.4372
+XGBoost,82.4222,70.4,35.3769
+Catboost,82.066667,65.766739,37.202199
